@@ -75,8 +75,8 @@ export default {
             this.getSingleCtegoryId(this.$route.params.productId)
         }
     },
-    async beforeMount(){
-        await this.getSingleCtegoryId(this.$route.params.productId)
+    beforeMount(){
+        this.getSingleCtegoryId(this.$route.params.productId)
     },
 }
 
